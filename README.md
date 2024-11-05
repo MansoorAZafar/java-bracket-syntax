@@ -1,71 +1,60 @@
-# java-bracket-syntax README
+# java-bracket-syntax 📝
 
-This is the README for your extension "java-bracket-syntax". After writing up a brief description, we recommend including the following sections.
+Welcome to the **java-bracket-syntax** extension! This tool enhances your Java coding experience by allowing you to use the `[]` operator on strings. Upon saving your file, the extension automatically replaces the syntax with `.charAt(index)` for efficient character access. 
 
-## Features
+![2024-11-05 12-45-17](https://github.com/user-attachments/assets/e5d0dc38-b6b1-4810-8773-e2c25109f927)
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
-For example if there is an image subfolder under your extension project workspace:
+## Features ✨
 
-\!\[feature X\]\(images/feature-x.png\)
+- **Auto Replacement**: Automatically converts string bracket notation to `.charAt(index)` on save.
+- **Enhanced Readability**: Simplifies accessing characters in strings, making your code cleaner and more intuitive.
+- **Support for Multi-Dimensional Arrays**: Works seamlessly with multi-dimensional arrays, enhancing flexibility in your coding.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Requirements 🔧
 
-## Requirements
+- Visual Studio Code version 1.60 or higher.
+- Java development environment set up (JDK 8 or later recommended).
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
+## Extension Settings ⚙️
 
 This extension contributes the following settings:
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+- `javaBracketSyntax.enable`: Enable or disable the auto-replacement feature.
 
-## Known Issues
+## Known Issues ⚠️
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- Ensure your strings are well-formed; the extension may not work with malformed syntax.
+- Currently, does not support non-standard string access methods.
+- It'll be marked with a red underline as bad syntax
+- doesn't work with spaced out syntax (ex. str       [index])
+- Have to save twice
 
-## Release Notes
-
-Users appreciate release notes as you update your extension.
+## Release Notes 🗒️
 
 ### 1.0.0
 
-Initial release of ...
+- Initial release of the java-bracket-syntax extension.
 
 ### 1.0.1
 
-Fixed issue #.
+- Fixed issue with handling multiple brackets.
 
 ### 1.1.0
 
-Added features X, Y, and Z.
+- Improved performance for large files.
 
 ---
 
-## Following extension guidelines
+## Following Extension Guidelines 📜
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+Make sure to follow best practices when creating extensions. 
 
 * [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
 
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
+## For More Information 🌐
 
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+**Enjoy coding with java-bracket-syntax!**
