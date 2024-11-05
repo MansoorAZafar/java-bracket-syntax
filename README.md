@@ -2,6 +2,8 @@
 
 Welcome to the **java-bracket-syntax** extension! This tool enhances your Java coding experience by allowing you to use the `[]` operator on strings. Upon saving your file, the extension automatically replaces the syntax with `.charAt(index)` for efficient character access. 
 
+To use it, just save your file twice, CTRL+S -> CTRL+S then it'll be fixed!
+
 ![2024-11-05 12-45-17](https://github.com/user-attachments/assets/e5d0dc38-b6b1-4810-8773-e2c25109f927)
 
 
